@@ -52,6 +52,18 @@ Player player2 has a balance of 0.
 New Player will have balance of 20.
 
 
+# Simple Game Contracts
+
+This project implements several simple game contracts using Cairo language. These contracts allow players to interact with and play various games.
+
+## Games
+
+1. **Guessing Game:**
+
+   * Players try to guess a randomly generated number between 1 and 100.
+   * Players have 10 attempts to guess the number correctly.
+   * If the player guesses the number correctly, they win the game. Otherwise, they lose.
+
 ## License
 
 This project is licensed under the MIT License.
