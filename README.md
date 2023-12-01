@@ -63,6 +63,12 @@ This project implements several simple game contracts using Cairo language. Thes
    * Players try to guess a randomly generated number between 1 and 100.
    * Players have 10 attempts to guess the number correctly.
    * If the player guesses the number correctly, they win the game. Otherwise, they lose.
+  
+2. **Coin Flipping Game:**
+
+   * Players try to guess whether a flipped coin will land on heads or tails.
+   * Players have 10 attempts to guess correctly.
+   * If the player guesses correctly, they win the game. Otherwise, they lose.
 
 ## License
 
