@@ -75,6 +75,53 @@ This project implements several simple game contracts using Cairo language. Thes
    * Two players take turns placing their marks (X or O) on a 3x3 grid.
    * The first player to get three marks in a row wins the game.
    * If all nine marks are placed and no player has three in a row, the game is a tie.
+  
+
+## Usage
+
+To run each game, you will need to have the Cairo compiler installed. You can then compile each contract by running the following command for the respective game:
+
+**Guessing Game:**
+
+cairo-compile guessing_game_contract.cairo
+
+
+**Coin Flipping Game:**
+
+cairo-compile coin_flipping_game_contract.cairo
+
+
+**Tic-Tac-Toe Game:**
+
+cairo-compile tic_tac_toe_game_contract.cairo
+
+Once the contracts are compiled, you can deploy them to the Starknet blockchain using the following command for the respective game:
+
+Guessing Game:
+
+cairo-deploy guessing_game_contract.cairo
+
+**Coin Flipping Game:**
+
+cairo-deploy coin_flipping_game_contract.cairo
+
+
+**Tic-Tac-Toe Game:**
+
+cairo-deploy tic_tac_toe_game_contract.cairo
+
+To interact with the deployed contracts, you can use the cairo-call command. For example, to play a guessing game, you can run the following commands:
+
+Start a new game
+cairo-call guessing_game_contract.cairo initialize
+
+Make a guess
+cairo-call guessing_game_contract.cairo guess 50
+
+Check if the guess was correct
+cairo-call guessing_game_contract.cairo checkGuess
+
+For more detailed instructions on how to play each game, please refer to the documentation for the respective game contract.
 
 ## License
 
