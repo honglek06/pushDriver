@@ -49,6 +49,7 @@ Player player1 played move move1.
 Player player2 played move move2.
 Player player1 has a balance of 0.
 Player player2 has a balance of 0.
+New Player will have balance of 0.
 
 
 ## License
