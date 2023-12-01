@@ -69,6 +69,12 @@ This project implements several simple game contracts using Cairo language. Thes
    * Players try to guess whether a flipped coin will land on heads or tails.
    * Players have 10 attempts to guess correctly.
    * If the player guesses correctly, they win the game. Otherwise, they lose.
+  
+3. **Tic-Tac-Toe Game:**
+
+   * Two players take turns placing their marks (X or O) on a 3x3 grid.
+   * The first player to get three marks in a row wins the game.
+   * If all nine marks are placed and no player has three in a row, the game is a tie.
 
 ## License
 
